@@ -70,7 +70,7 @@ export default function Top() {
         className={`bg-sky-950 fixed top-0 left-0 right-0 bottom-0 z-10 ${shouldMobileMenuOpen ? "md:hidden block" : "hidden"}`}
       >
         <CgClose
-          className="w-12 h-12 absolute top-6 right-10 cursor-pointer text-white"
+          className="w-10 h-10 absolute top-6 right-10 cursor-pointer text-white"
           onClick={() => {
             setshouldMobileMenuOpen(false);
           }}
