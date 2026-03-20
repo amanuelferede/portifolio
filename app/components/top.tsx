@@ -41,13 +41,13 @@ export default function Top() {
                   href={`https://www.linkedin.com/in/amanuel-ferede-65167a3b7/`}
                   target="_blank"
                 >
-                  <FaLinkedin className="md:w-10 md:h-10 text-white w-12 h-12" />
+                  <FaLinkedin className="md:w-10 md:h-10 text-white w-11 h-11" />
                 </Link>
               </div>
 
               <div className="flex items-center md:space-x-8 space-x-3">
-                <FaTelegram className="md:w-10 md:h-10 text-white w-12 h-12" />
-                <FaWhatsapp className="md:w-10 md:h-10 text-white w-12 h-12" />
+                <FaTelegram className="md:w-10 md:h-10 text-white w-11 h-11" />
+                <FaWhatsapp className="md:w-10 md:h-10 text-white w-11 h-11" />
                 <p className="md:text-4xl text-lg text-white">+251918634810</p>
               </div>
             </div>
