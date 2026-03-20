@@ -32,23 +32,23 @@ export default function Top() {
         <div className="grid grid-cols-12 md:gap-10 gap-3">
           <div className="md:col-span-7 col-span-12">
             <div className="h-full w-full md:p-25 p-10  py-15">
-              <p className="text-7xl text-white">Amanuel Ferede</p>
-              <p className="text-3xl mt-4 text-white leading-relaxed">
+              <p className="md:text-7xl text-5xl text-white">Amanuel Ferede</p>
+              <p className="md:text-3xl text-lg mt-4 text-white leading-relaxed">
                 Frontend developer | Web developer | Fullstack web developer
               </p>
-              <div className="md:flex hidden md:space-x-8 space-x-3 my-10">
+              <div className=" md:space-x-8 space-x-3 my-10">
                 <Link
                   href={`https://www.linkedin.com/in/amanuel-ferede-65167a3b7/`}
                   target="_blank"
                 >
-                  <FaLinkedin className="md:w-10 md:h-10 text-white w-6 h-6" />
+                  <FaLinkedin className="md:w-10 md:h-10 text-white w-12 h-12" />
                 </Link>
               </div>
 
-              <div className="flex items-center space-x-4">
-                <FaTelegram className="md:w-10 md:h-10 text-white w-6 h-6" />
-                <FaWhatsapp className="md:w-10 md:h-10 text-white w-6 h-6" />
-                <p className="text-4xl text-white">+251918634810</p>
+              <div className="flex items-center md:space-x-8 space-x-3">
+                <FaTelegram className="md:w-10 md:h-10 text-white w-12 h-12" />
+                <FaWhatsapp className="md:w-10 md:h-10 text-white w-12 h-12" />
+                <p className="md:text-4xl text-lg text-white">+251918634810</p>
               </div>
             </div>
           </div>
