@@ -37,7 +37,6 @@ export default function Top() {
                 Frontend developer | Web developer | Fullstack web developer
               </p>
               <div className="md:flex hidden md:space-x-8 space-x-3 my-10">
-                <FaFacebook className="md:w-10 md:h-10 text-white w-6 h-6" />
                 <Link
                   href={`https://www.linkedin.com/in/amanuel-ferede-65167a3b7/`}
                   target="_blank"
