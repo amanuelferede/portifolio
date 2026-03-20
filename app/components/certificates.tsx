@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Certificates() {
   return (
     <div className="max-w-7xl mx-auto py-20 md:px-0 px-5" id="certificates">
@@ -17,7 +18,7 @@ export default function Certificates() {
             className="w-40 h-40 object-contain  "
           />
 
-          <div className="p-10 z-20 text-white flex flex-col space-y-2.5 ">
+          <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Diploma</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -25,9 +26,13 @@ export default function Certificates() {
               repellendus laudantium cum, praesentium nostrum eveniet atque
               fugiat beatae impedit corrupti numquam.
             </p>
-            <button className="mt-5 w-1/2 py-3 rounded-xl bg-pink-600 text-white">
+            <Link
+              href={`https://drive.google.com/file/d/1xRznePwCtXdFLe4M79-x3qdztduWzwre/view?usp=sharing`}
+              target="_blank"
+              className="mt-5 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white"
+            >
               View Certificate
-            </button>
+            </Link>
           </div>
         </div>
         <div className="bg-transparent flex md:flex-row flex-col items-center md:rounded-2xl border border-white w-full p-2">
@@ -40,7 +45,7 @@ export default function Certificates() {
             className="w-40 h-40 object-contain  "
           />
 
-          <div className="p-10 z-20 text-white flex flex-col space-y-2.5 ">
+          <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Diploma</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -48,9 +53,13 @@ export default function Certificates() {
               repellendus laudantium cum, praesentium nostrum eveniet atque
               fugiat beatae impedit corrupti numquam.
             </p>
-            <button className="mt-5 w-1/2 py-3 rounded-xl bg-pink-600 text-white">
+            <Link
+              href={`https://drive.google.com/file/d/1BLfePYf2e041NBdBz8pOK3XHNBtnexma/view?usp=sharing`}
+              target="_blank"
+              className="mt-5 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white"
+            >
               View Certificate
-            </button>
+            </Link>
           </div>
         </div>
         <div className="bg-transparent flex md:flex-row flex-col items-center md:rounded-2xl border border-white w-full p-2">
@@ -63,7 +72,7 @@ export default function Certificates() {
             className="w-40 h-40 object-contain  "
           />
 
-          <div className="p-10 z-20 text-white flex flex-col space-y-2.5 ">
+          <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Diploma</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -71,9 +80,13 @@ export default function Certificates() {
               repellendus laudantium cum, praesentium nostrum eveniet atque
               fugiat beatae impedit corrupti numquam.
             </p>
-            <button className="mt-5 w-1/2 py-3 rounded-xl bg-pink-600 text-white">
+            <Link
+              href={`https://drive.google.com/file/d/1JOJPL1EA0u-UJB2Ox2f2-Zqi1c-z0FtX/view?usp=sharing`}
+              target="_blank"
+              className="mt-5 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white"
+            >
               View Certificate
-            </button>
+            </Link>
           </div>
         </div>
         <div className="bg-transparent flex md:flex-row flex-col items-center md:rounded-2xl border border-white w-full p-2">
@@ -86,7 +99,7 @@ export default function Certificates() {
             className="w-40 h-40 object-contain  "
           />
 
-          <div className="p-10 z-20 text-white flex flex-col space-y-2.5 ">
+          <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Diploma</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -94,9 +107,13 @@ export default function Certificates() {
               repellendus laudantium cum, praesentium nostrum eveniet atque
               fugiat beatae impedit corrupti numquam.
             </p>
-            <button className="mt-5 w-1/2 py-3 rounded-xl bg-pink-600 text-white">
+            <Link
+              href={`https://drive.google.com/file/d/1K8nskRCbejyZswv6zuXu7Xjvsu3ZJRE2/view?usp=sharing`}
+              target="_blank"
+              className="mt-5 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white"
+            >
               View Certificate
-            </button>
+            </Link>
           </div>
         </div>
         <div className="bg-transparent flex md:flex-row flex-col items-center md:rounded-2xl border border-white w-full p-2">
@@ -109,7 +126,7 @@ export default function Certificates() {
             className="w-40 h-40 object-contain  "
           />
 
-          <div className="p-10 z-20 text-white flex flex-col space-y-2.5 ">
+          <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Diploma</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -117,9 +134,13 @@ export default function Certificates() {
               repellendus laudantium cum, praesentium nostrum eveniet atque
               fugiat beatae impedit corrupti numquam.
             </p>
-            <button className="mt-5 w-1/2 py-3 rounded-xl bg-pink-600 text-white">
+            <Link
+              href={`https://drive.google.com/file/d/1gZ37FDQTPlx5utZ__W51lLB-Wi8qNVLe/view?usp=sharing`}
+              target="_blank"
+              className="mt-5 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white"
+            >
               View Certificate
-            </button>
+            </Link>
           </div>
         </div>
       </div>
