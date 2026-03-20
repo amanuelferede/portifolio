@@ -21,7 +21,7 @@ export default function Certificates() {
           <div className="p-10 text-white flex flex-col space-y-2.5 ">
             <p className="text-3xl">Temporary degree certificate.</p>
             <p>
-              an official document verifying a student’s graduation. It acts as
+              An official document verifying a student’s graduation. It acts as
               a valid substitute for the original diploma, detailing the course,
               pass-out year, and candidate name, usually issued while waiting
               for the official convocation ceremony.

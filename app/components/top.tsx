@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
-import { FaFacebook, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 import { HiBars3 } from "react-icons/hi2";
 
