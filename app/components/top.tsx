@@ -22,16 +22,16 @@ export default function Top() {
   return (
     <div className="w-full min-h-screen relative">
       <HiBars3
-        className="absolute w-12 h-12 top-5 right-10 md:hidden block text-white cursor-pointer"
+        className="absolute w-10 h-10 top-5 right-6 md:hidden block text-white cursor-pointer"
         onClick={() => {
           setshouldMobileMenuOpen(true);
         }}
       />
 
       <div className="w-full">
-        <div className="grid grid-cols-12 gap-10">
+        <div className="grid grid-cols-12 md:gap-10 gap-3">
           <div className="md:col-span-7 col-span-12">
-            <div className="h-full md:p-25 p-10  py-15">
+            <div className="h-full w-full md:p-25 p-10  py-15">
               <p className="text-7xl text-white">Amanuel Ferede</p>
               <p className="text-3xl mt-4 text-white leading-relaxed">
                 Frontend developer | Web developer | Fullstack web developer
@@ -53,7 +53,7 @@ export default function Top() {
             </div>
           </div>
           <div
-            className="md:col-span-5 col-span-12 h-screen  relative"
+            className="md:col-span-5 col-span-12 h-screen  relative bg-red-500"
             style={{
               backgroundImage: `url('/banner.png')`,
               backgroundSize: "cover",

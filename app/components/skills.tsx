@@ -5,7 +5,7 @@ export default function Skills() {
       <p className="mb-10 md:text-6xl text-3xl text-pink-400 text-center">
         Skills and experiences.
       </p>
-      <div className="grid md:grid-cols-12 gap-10">
+      <div className="grid grid-cols-12 md:gap-10 gap-3">
         <div className="md:col-span-5 col-span-12">
           <div className="md:sticky md:h-1/2 md:top-10">
             <div className="grid md:grid-cols-2 grid-cols-2 gap-6">
