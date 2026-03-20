@@ -15,7 +15,7 @@ export default function Sidebar() {
       <div className="md:w-[10%] md:block hidden z-20 h-screen  fixed top-0 left-0 right-0 bottom-0 bg-linear-to-b from-sky-950 to-black to-95%">
         <div className="grid grid-rows-6 ">
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("about");
             }}
@@ -23,7 +23,7 @@ export default function Sidebar() {
             About
           </div>
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("services");
             }}
@@ -31,7 +31,7 @@ export default function Sidebar() {
             Services
           </div>
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("skills");
             }}
@@ -39,7 +39,7 @@ export default function Sidebar() {
             Skills
           </div>
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("works");
             }}
@@ -47,7 +47,7 @@ export default function Sidebar() {
             Works
           </div>
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("certificates");
             }}
@@ -55,7 +55,7 @@ export default function Sidebar() {
             Certificates
           </div>
           <div
-            className="flex hover:bg-sky-950 hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
+            className="flex hover:bg-sky-950 cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("contact");
             }}
