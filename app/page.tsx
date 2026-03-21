@@ -1,4 +1,5 @@
 import AboutMe from "./components/aboutme";
+import BackToTop from "./components/backtotop";
 import Certificates from "./components/certificates";
 import Contact from "./components/contact";
 import Services from "./components/services";
@@ -21,6 +22,7 @@ export default function Home() {
         <Works />
         <Certificates />
         <Contact />
+        <BackToTop />
       </div>
     </div>
   );

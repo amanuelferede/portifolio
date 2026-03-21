@@ -76,11 +76,12 @@ export default function Top() {
           }}
         />
 
-        <div className="grid grid-rows-6 ">
+        <div className="grid grid-cols-2 ">
           <div
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("about");
+              setshouldMobileMenuOpen(false);
             }}
           >
             About
@@ -89,6 +90,7 @@ export default function Top() {
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("services");
+              setshouldMobileMenuOpen(false);
             }}
           >
             Services
@@ -97,6 +99,7 @@ export default function Top() {
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("skills");
+              setshouldMobileMenuOpen(false);
             }}
           >
             Skills
@@ -105,6 +108,7 @@ export default function Top() {
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("works");
+              setshouldMobileMenuOpen(false);
             }}
           >
             Works
@@ -113,6 +117,7 @@ export default function Top() {
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("certificates");
+              setshouldMobileMenuOpen(false);
             }}
           >
             Certificates
@@ -121,6 +126,7 @@ export default function Top() {
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
               goToSection("contact");
+              setshouldMobileMenuOpen(false);
             }}
           >
             Contact
