@@ -76,7 +76,7 @@ export default function Top() {
           }}
         />
 
-        <div className="grid grid-cols-2 ">
+        <div className="grid grid-rows-6 ">
           <div
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {

@@ -5,7 +5,7 @@ export default function Contact() {
         Let us contact each other.
       </p>
 
-      <div className="md:max-w-3xl max-w-full  mx-auto md:p-10 p-3 bg-white">
+      <div className="md:max-w-5xl md:rounded-xl rounded-md max-w-full  mx-auto md:p-10 p-3 bg-white">
         <div className="grid grid-cols-1 gap-10">
           <div className="">
             <input
