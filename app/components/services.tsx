@@ -94,7 +94,15 @@ export default function Services() {
           </div>
 
           <div className="h-75 bg-white md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5 rounded-md md:shadow-xl shadow-md  text-center flex items-center justify-center">
-            <div className="flex flex-col space-y-2 text-white">
+            <div className="flex flex-col space-y-2 items-center text-white">
+              <Image
+                src={`/why choose us/technical-support.png`}
+                width={0}
+                height={0}
+                className="w-25 h-25"
+                sizes="100vh"
+                alt="web desgin"
+              />
               <p className="font-semibold text-lg text-black">
                 Dedicated local support.
               </p>
