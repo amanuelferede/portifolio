@@ -33,7 +33,7 @@ export default function BackToTop() {
   }, []);
   return (
     <div
-      className={`animate-bounce md:w-13 md:h-13 w-12 h-12 rounded-full bg-sky-800 fixed bottom-3.5 right-3.5 ${scrollPosition >= 695.2000122070312 ? "block" : "hidden"}`}
+      className={`cursor-pointer animate-bounce md:w-13 md:h-13 w-12 h-12 rounded-full bg-sky-800 fixed bottom-3.5 right-3.5 ${scrollPosition >= 695.2000122070312 ? "block" : "hidden"}`}
       onClick={backtoTop}
     >
       <MdOutlineKeyboardArrowDown className="w-full h-full p-2 text-white" />
