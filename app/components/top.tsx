@@ -106,11 +106,11 @@ export default function Top() {
           <div
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"
             onClick={() => {
-              goToSection("works");
+              goToSection("portifolio");
               setshouldMobileMenuOpen(false);
             }}
           >
-            Works
+            Portifolio
           </div>
           <div
             className="flex hover:bg-sky-950 hover:text-white  h-30 items-center justify-center text-white border-b border-b-transparent hover:border-b-white transition-all duration-500 ease-in-out last:hover:border-b-transparent"

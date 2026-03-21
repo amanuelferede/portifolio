@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Works() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-20 md:px-0 px-3" id="works">
-        <p className="mb-10 md:text-6xl text-3xl text-pink-400 text-center">
-          Portifolio
+      <div className="max-w-7xl mx-auto py-20 md:px-0 px-3" id="portifolio">
+        <p className="mb-10 md:text-3xl text-xl text-pink-400 text-center">
+          This are my works that showcase my skills
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
