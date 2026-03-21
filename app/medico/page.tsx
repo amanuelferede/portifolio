@@ -22,7 +22,7 @@ export default function FbCloneApp() {
             />
 
             <Link
-              href={`https://github.com/amanuelferede/medico`}
+              href={`https://medico-bay-six.vercel.app/`}
               target="_blank"
               className="my-5 block text-center w-1/2 py-2.5 rounded-xl bg-sky-900 text-white"
             >

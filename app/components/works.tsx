@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Works() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-20 md:px-0 px-5" id="works">
+      <div className="max-w-7xl mx-auto py-20 md:px-0 px-3" id="works">
         <p className="mb-10 md:text-6xl text-3xl text-pink-400 text-center">
           Portifolio
         </p>
@@ -76,7 +76,7 @@ export default function Works() {
                 View Project
               </Link>
               <Link
-                href={`https://fb-clone-jade.vercel.app/`}
+                href={`https://hulu-fashion.vercel.app/`}
                 className=" bg-pink-500 cursor-pointer text-white text-center py-3 md:hidden block w-1/2 rounded-md"
               >
                 Live demo
@@ -110,7 +110,7 @@ export default function Works() {
                 View Project
               </Link>
               <Link
-                href={`https://fb-clone-jade.vercel.app/`}
+                href={`https://medico-bay-six.vercel.app/`}
                 className=" bg-pink-500 cursor-pointer text-white text-center py-3 md:hidden block w-1/2 rounded-md"
               >
                 Live demo
@@ -145,7 +145,7 @@ export default function Works() {
                 View Project
               </Link>
               <Link
-                href={`https://fb-clone-jade.vercel.app/`}
+                href={`https://ebc-clone-pied.vercel.app/`}
                 className=" bg-pink-500 cursor-pointer text-white text-center py-3 md:hidden block w-1/2 rounded-md"
               >
                 Live demo

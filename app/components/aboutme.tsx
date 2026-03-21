@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <div className="max-w-7xl mx-auto pt-20 px-3" id="about">
-      <p className="md:my-10 md:text-6xl text-3xl text-pink-400 text-center">
+      <p className="md:my-10 my-5 md:text-6xl text-3xl text-pink-400 text-center">
         About
       </p>
       <p className="md:text-justify md:w-4/5 w-full md:p-0  leading-relaxed mb-10 md:text-2xl text-white">

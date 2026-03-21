@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Certificates() {
   return (
-    <div className="max-w-7xl mx-auto py-20 md:px-0 px-5" id="certificates">
+    <div className="max-w-7xl mx-auto py-20 md:px-0 px-2" id="certificates">
       <p className="mb-10 md:text-6xl text-3xl text-pink-400 text-center">
         Certificates.
       </p>

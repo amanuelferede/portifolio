@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Services() {
   return (
-    <div className="max-w-7xl mx-auto pt-20 md:px-0 px-5" id="services">
+    <div className="max-w-7xl mx-auto pt-20 md:px-0 px-3" id="services">
       <div className="grid md:grid-cols-2 md:gap-7 gap-3">
         <div className="h-1/2 md:sticky md:top-10 md:border-2 md:p-20 p-5 md:border-white md:flex md:items-center md:justify-center">
           <div className="flex flex-col space-y-3 text-white">

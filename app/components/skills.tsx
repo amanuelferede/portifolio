@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Skills() {
   return (
-    <div className="max-w-full md:px-10 px-5  mx-auto pt-20" id="skills">
+    <div className="max-w-full md:px-10 px-3  mx-auto pt-20" id="skills">
       <p className="mb-10 md:text-6xl text-3xl text-pink-400 text-center">
         Skills and experiences.
       </p>
