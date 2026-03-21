@@ -35,7 +35,7 @@ export default function Top() {
               <p className="md:text-7xl text-5xl text-pink-500">
                 Amanuel Ferede
               </p>
-              <p className="md:text-3xl text-lg mt-4 text-white leading-relaxed">
+              <p className="md:text-3xl mt-4 text-white leading-relaxed">
                 Frontend developer | Web developer | Fullstack web developer
               </p>
               <div className="flex md:space-x-5 items-center space-x-3 my-10">
@@ -47,7 +47,7 @@ export default function Top() {
                 </Link>
                 <FaTelegram className="md:w-10 md:h-10 text-white w-11 h-11" />
                 <FaWhatsapp className="md:w-10 md:h-10 text-white w-11 h-11" />
-                <p className="md:text-4xl text-lg text-white">+251918634810</p>
+                <p className="md:text-4xl text-white">+251918634810</p>
               </div>
             </div>
           </div>
