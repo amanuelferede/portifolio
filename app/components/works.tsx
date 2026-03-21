@@ -69,7 +69,7 @@ export default function Works() {
                 customers.{" "}
               </p>
               <Link
-                href={`/fb-clone`}
+                href={`/hulu-fashion`}
                 target="_blank"
                 className="my-2 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white md:block hidden"
               >
