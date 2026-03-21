@@ -32,7 +32,9 @@ export default function Top() {
         <div className="grid grid-cols-12 md:gap-10 gap-3">
           <div className="md:col-span-7 col-span-12">
             <div className="h-full w-full md:p-15 p-8">
-              <p className="md:text-7xl text-5xl text-white">Amanuel Ferede</p>
+              <p className="md:text-7xl text-5xl text-pink-500">
+                Amanuel Ferede
+              </p>
               <p className="md:text-3xl text-lg mt-4 text-white leading-relaxed">
                 Frontend developer | Web developer | Fullstack web developer
               </p>
