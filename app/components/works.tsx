@@ -42,7 +42,7 @@ export default function Works() {
               </Link>
               <Link
                 href={`https://fb-clone-jade.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 w-1/2 rounded-md"
+                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -77,7 +77,7 @@ export default function Works() {
               </Link>
               <Link
                 href={`https://hulu-fashion.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 w-1/2 rounded-md"
+                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -111,7 +111,7 @@ export default function Works() {
               </Link>
               <Link
                 href={`https://medico-bay-six.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 w-1/2 rounded-md"
+                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -146,7 +146,7 @@ export default function Works() {
               </Link>
               <Link
                 href={`https://ebc-clone-pied.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 w-1/2 rounded-md"
+                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
