@@ -36,13 +36,13 @@ export default function Sidebar() {
 
   return (
     <>
-      <div className="md:w-[10%] md:block hidden z-20 h-screen  fixed top-0 left-0 right-0 bottom-0 bg-linear-to-b from-sky-950 to-black to-95%">
-        <div className="grid grid-rows-6 ">
+      <div className="md:w-[10%] md:block hidden z-20 h-screen  fixed top-0 left-0 right-0 bottom-0 bg-linear-to-b from-gray-700 to-gray-800 to-95%">
+        <div className="grid grid-rows-5 ">
           {sideBarContents.map((sc, index) => {
             return (
               <div
                 key={index}
-                className={`flex  cursor-pointer hover:text-pink-200  h-30 items-center justify-center text-pink-200 border-b-2 border-t-2   transition-all duration-500 ease-in-out last:hover:border-b-transparent ${sc.isActive ? "border-b-pink-600 border-t-pink-600 bg-linear-to-b from-sky-00 to-sky-900 to-95%" : "md:hover:bg-linear-to-b from-sky-00 to-sky-900 to-95% hover:border-b-pink-600 hover:border-t-pink-600 border-b-transparent border-t-transparent"}`}
+                className={`flex  last:hover:border-b-transparent cursor-pointer   h-30 items-center justify-center border-b-2 border-t-2   transition-all duration-500 ease-in-out text-white  ${sc.isActive ? "md:border-b-sky-600 md:border-t-gray-200 bg-linear-to-b from-gray-700 to-gray-800 to-95% md:hover:text-white" : " border-b-transparent border-t-transparent md:hover:text-sky-200 "}`}
                 onClick={() => {
                   goToSection(sc.value, index);
                 }}

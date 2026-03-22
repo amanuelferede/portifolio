@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className="" id="contact">
-      <p className="mb-10 md:text-6xl text-pink-400 text-center">
+    <div className="md:px-0 px-3" id="contact">
+      <p className="text-lg my-10 text-gray-50 text-center">
         Let us contact each other.
       </p>
 
@@ -10,24 +10,24 @@ export default function Contact() {
           <div className="">
             <input
               placeholder="Your name"
-              className="placeholder:text-black text-black block w-full md:p-4 p-2.5 border-2 border-gray-400 rounded-2xl"
+              className="placeholder:text-black text-black block w-full px-4 py-3 border-2 border-gray-400 rounded-2xl"
             />
           </div>
           <div className="">
             <input
               placeholder="Your email"
-              className="placeholder:text-black text-black block w-full md:p-4 p-2.5 border-2 border-gray-400 rounded-2xl"
+              className="placeholder:text-black text-black block w-full px-4 py-3 border-2 border-gray-400 rounded-2xl"
             />
           </div>
           <div className="">
             <textarea
               rows={7}
               placeholder="Your message"
-              className="placeholder:text-black text-black block w-full md:p-4 p-2.5 border-2 border-gray-400 rounded-2xl"
+              className="placeholder:text-black text-black block w-full px-4 py-3 border-2 border-gray-400 rounded-2xl"
             />
           </div>
           <div className="flex justify-center ">
-            <button className="w-2/3 py-4 rounded-2xl bg-pink-700 text-white">
+            <button className="w-2/3 py-4 rounded-2xl bg-sky-600 text-white">
               Contact Me
             </button>
           </div>

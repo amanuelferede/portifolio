@@ -9,11 +9,7 @@ export const sideBarContentsData = [
         value: 'skills',
         isActive: false,
     },
-    {
-        name: 'Services',
-        value: 'services',
-        isActive: false,
-    },
+  
 
     {
         name: 'Portifolio',

@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
@@ -20,7 +20,7 @@ export default function Top() {
   const [shouldMobileMenuOpen, setshouldMobileMenuOpen] =
     useState<boolean>(false);
   return (
-    <div className="w-full min-h-screen relative">
+    <div className="max-w-7xl py-20 md:px-0 px-3 mx-auto relative">
       <HiBars3
         className="absolute w-10 h-10 top-5 right-6 md:hidden block text-white cursor-pointer"
         onClick={() => {
@@ -29,39 +29,33 @@ export default function Top() {
       />
 
       <div className="w-full">
-        <div className="grid grid-cols-12 md:gap-10 gap-3">
-          <div className="md:col-span-7 col-span-12">
-            <div className="h-full w-full md:p-15 p-8">
-              <p className="md:text-7xl text-5xl text-pink-500">
-                Amanuel Ferede
-              </p>
-              <p className="md:text-3xl mt-4 text-white leading-relaxed">
-                Frontend developer | Web developer | Fullstack web developer
-              </p>
-              <div className="flex md:space-x-5 items-center space-x-3 my-10">
-                <Link
-                  href={`https://www.linkedin.com/in/amanuel-ferede-65167a3b7/`}
-                  target="_blank"
-                >
-                  <FaLinkedin className="md:w-10 md:h-10 text-white w-11 h-11" />
-                </Link>
-                <FaTelegram className="md:w-10 md:h-10 text-white w-11 h-11" />
-                <FaWhatsapp className="md:w-10 md:h-10 text-white w-11 h-11" />
-                <p className="md:text-4xl text-white">+251918634810</p>
-              </div>
+        <div className="flex  items-center justify-center md:flex-row flex-col md:space-x-5 space-y-2">
+          <Image
+            src={`/banner.png`}
+            width={0}
+            height={0}
+            className="w-30 h-30 rounded-full object-cover"
+            sizes="100vh"
+            alt="web desgin"
+          />
+          <div className="flex flex-col space-y-2.5 md:items-start items-center">
+            <p className="md:text-6xl mb-2 text-lg text-sky-500">
+              Amanuel Ferede
+            </p>
+            <p className="md:text-4xl mb-2 text-xl  text-white">
+              Frontend developer | Web developer | Fullstack web developer
+            </p>
+            <div className="flex md:space-x-5 items-center space-x-3">
+              <Link
+                href={`https://www.linkedin.com/in/amanuel-ferede-65167a3b7/`}
+                target="_blank"
+              >
+                <FaLinkedin className="w-7 h-7 text-white" />
+              </Link>
+              <FaTelegram className="w-7 h-7 text-white " />
+              <FaWhatsapp className="w-7 h-7 text-white" />
+              <p className=" text-white">+251918634810</p>
             </div>
-          </div>
-          <div
-            className="md:col-span-5 col-span-12 h-screen  relative bg-red-500"
-            style={{
-              backgroundImage: `url('/banner.png')`,
-              backgroundSize: "cover",
-              backgroundPosition: "top center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            <div className=" absolute top-0 left-0 right-0 bottom-0 bg-pink-600/40"></div>
-            <div className="p-20"></div>
           </div>
         </div>
       </div>

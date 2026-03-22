@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Works() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-20 md:px-0 px-3" id="portifolio">
-        <p className="mb-10 md:text-3xl text-xl text-pink-400 text-center">
-          This are my works that showcase my skills
+      <div className="max-w-7xl mx-auto md:px-0 px-3" id="portifolio">
+        <p className="text-lg my-10 text-gray-50 text-center">
+          This is are my works till now to showcase my skills
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -33,16 +33,11 @@ export default function Works() {
                 performance, a seamless user experience, and SEO
                 optimization.{" "}
               </p>
-              <Link
-                href={`/fb-clone`}
-                target="_blank"
-                className="my-2 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white md:block hidden"
-              >
-                View Project
-              </Link>
+
               <Link
                 href={`https://fb-clone-jade.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
+                target="_blank"
+                className=" bg-sky-600 cursor-pointer text-white text-center  md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -68,16 +63,11 @@ export default function Works() {
                 design and provides a seamless shopping experience for
                 customers.{" "}
               </p>
-              <Link
-                href={`/hulu-fashion`}
-                target="_blank"
-                className="my-2 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white md:block hidden"
-              >
-                View Project
-              </Link>
+
               <Link
                 href={`https://hulu-fashion.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
+                target="_blank"
+                className=" bg-sky-600 cursor-pointer text-white text-center  md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -102,16 +92,11 @@ export default function Works() {
                 professionals, designed for fast loading, excellent SEO, and a
                 seamless user experience across all devices.{" "}
               </p>
-              <Link
-                href={`/medico`}
-                target="_blank"
-                className="my-2 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white md:block hidden"
-              >
-                View Project
-              </Link>
+
               <Link
                 href={`https://medico-bay-six.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
+                target="_blank"
+                className=" bg-sky-600 cursor-pointer text-white text-center  md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
@@ -137,16 +122,11 @@ export default function Works() {
                 Tailwind CSS and TypeScript, it offers a responsive, dynamic
                 layout with customizable categories.{" "}
               </p>
-              <Link
-                href={`/ebc-clone`}
-                target="_blank"
-                className="my-2 text-center w-1/2 py-3 rounded-xl bg-pink-600 text-white md:block hidden"
-              >
-                View Project
-              </Link>
+
               <Link
                 href={`https://ebc-clone-pied.vercel.app/`}
-                className=" bg-pink-500 cursor-pointer text-white text-center  md:hidden block md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
+                target="_blank"
+                className=" bg-sky-600 cursor-pointer text-white text-center  md:py-3 py-2 md:px-0 px-2 md:w-1/2 w-auto rounded-md"
               >
                 Live demo
               </Link>
