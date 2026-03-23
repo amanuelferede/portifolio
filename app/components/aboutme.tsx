@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <div className="max-w-5xl mx-auto px-3" id="about">
+    <div className="max-w-5xl mx-auto px-3 py-5" id="about">
       <p className="text-center  leading-relaxed mb-10  text-white">
         Front-End Developer | React.js | TypeScript | Modern CSS | Crafting
         responsive and interactive user interfaces that drive engagement. I

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="max-w-6xl mx-auto px-3" id="skills">
+    <div className="max-w-7xl mx-auto px-3 py-5" id="skills">
       <p className="text-lg my-10 text-gray-50 text-center">
         Skills and proficiences.
       </p>

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="md:px-0 px-3" id="contact">
+    <div className="md:px-0 px-3 py-5" id="contact">
       <p className="text-lg my-10 text-gray-50 text-center">
         Let us contact each other.
       </p>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Works() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto md:px-0 px-3" id="portifolio">
+      <div className="max-w-7xl mx-auto md:px-0 px-3 py-5" id="portifolio">
         <p className="text-lg my-10 text-gray-50 text-center">
           This is are my works till now to showcase my skills
         </p>
